@@ -16,6 +16,6 @@ Run container
 
 docker container run --name test -d -p 8080:8080 seerbit
 
-Test url from browser:
+Test url with curl from a terminal or command prompt:
 
-localhost:8080/transaction
+curl localhost:8080/transaction
